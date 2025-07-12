@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       mostrarMensagem("✅ Login realizado com sucesso!");
       setTimeout(() => {
-        window.location.href = "home.html";
+        window.location.href = "index.html";
       }, 2000);
     } else {
       mostrarMensagem("❌ Email ou senha incorretos.");
