@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meus Favoritos - Anime Flix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Anime Flix</div>
+    <div class="user">
+      <a href="home.html" class="botao-home">Voltar para Home</a>
+      <button id="botao-sair">Sair</button>
+    </div>
+  </header>
+
+  <main>
+    <h2>Meus animes favoritos</h2>
+    <div class="grid scroll-horizontal" id="favoritos-grid"></div>
+  </main>
+
+  <div id="mensagem-sucesso" class="mensagem-oculta"></div>
+
+  <!-- Modal de Vídeo -->
+  <div id="video-modal" class="modal-overlay oculto">
+    <div class="modal-content">
+      <span class="fechar-modal">&times;</span>
+      <video id="modal-video-player" controls autoplay></video>
+    </div>
+  </div>
+
+  <script src="js/favoritos.js"></script>
+</body>
+</html>
